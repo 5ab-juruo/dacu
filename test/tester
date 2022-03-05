@@ -1,0 +1,7 @@
+#!/usr/bin/sh
+rm -rf .dacu
+dacu init .
+dacu add-task test.cpp
+dacu add-data test test1.in test1.out
+dacu test
+dacu test test --strict

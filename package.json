@@ -1,0 +1,31 @@
+{
+  "name": "dacu",
+  "version": "1.0.0",
+  "description": "Data Arranger for Competitive programming Use",
+  "main": "main.js",
+  "scripts": {
+    "test": "cd test && ./tester"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/5ab-juruo/data-arranger.git"
+  },
+  "author": "5ab-juruo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/5ab-juruo/data-arranger/issues"
+  },
+  "homepage": "https://github.com/5ab-juruo/data-arranger#readme",
+  "dependencies": {
+    "commander": "^9.0.0",
+    "readline-sync": "^1.4.10",
+    "sha.js": "^2.4.11",
+    "shelljs": "^0.8.5"
+  },
+  "devDependencies": {
+    "eslint": "^8.10.0"
+  },
+  "bin": {
+    "dacu": "./src/main.js"
+  }
+}
